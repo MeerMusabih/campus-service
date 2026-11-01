@@ -1,0 +1,24 @@
+{
+  "name": "campus-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Campus Service - a small JavaScript project demonstrating DevOps principles: version control, branching, merge conflict resolution, and CI testing.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeerMusabih/campus-service.git"
+  },
+  "keywords": [
+    "devops",
+    "campus-service",
+    "testing",
+    "ci"
+  ],
+  "license": "MIT"
+}
