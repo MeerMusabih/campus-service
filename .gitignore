@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / coverage
+coverage/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scan artifacts from another task (not part of this assignment)
+scan-reports/
