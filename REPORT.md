@@ -3,15 +3,35 @@
 
 | Item | Detail |
 |------|--------|
-| **Student name** | ________________________  *(fill in)* |
-| **SAP ID** | ________________________  *(fill in)* |
-| **Section** | ________________________  *(fill in)* |
+| **Student name** | Meer Musabih Saleem |
+| **SAP ID** | 56749 |
+| **Section** | BSSE-7 |
 | **Submission date** | 1-Nov-2026 |
 | **Repository URL** | https://github.com/MeerMusabih/campus-service.git |
 | **Main branch** | `main` |
 | **Tooling used** | VS Code, TortoiseGit (Git), GitHub, Node.js 22, GitHub Actions |
 
-> **Note on evidence:** This report contains the complete written content and labels every required screenshot placeholder (`[SCREENSHOT: …]`). You must replace each placeholder with a real, captured screenshot from **your own** TortoiseGit / GitHub / GitHub Actions session before uploading. Per the assignment rules, do not submit Git CLI screenshots as a substitute for TortoiseGit actions, and do not simulate or copy execution evidence.
+> **SCREENSHOT STATUS**
+> 
+> | Evidence | Status | Where it is |
+> |----------|--------|-------------|
+> | **E1** VS Code project files + README | ❌ You capture | [SCREENSHOT: E1] |
+> | **E2** TortoiseGit Show log (≥3 commits on main) | ❌ You capture — TortoiseGit is local on your PC | [SCREENSHOT: E2] |
+> | **E3** GitHub main branch file list | ✅ Done | `screenshots/E3_github_main_files.jpg` (captured above) |
+> | **E4** Two branches + two status lines | ❌ You capture on GitHub | [SCREENSHOT: E4] |
+> | **E5** PR conflict → resolved merge | ❌ You capture on GitHub | [SCREENSHOT: E5] |
+> | **E6** Passing GitHub Actions run + test log | ❌ You capture on GitHub | [SCREENSHOT: E6] |
+> | **E7** Failed run → fixed successful run | ❌ You capture on GitHub | [SCREENSHOT: E7] |
+> 
+> **IMPORTANT:** I cannot generate screenshots for you — I do not have access to your GitHub account login or your local TortoiseGit application. You must capture every remaining screenshot yourself from **your own** TortoiseGit / GitHub / GitHub Actions session. Per the assignment rules, **simulated or copied screenshots do not count as execution evidence** and will receive zero marks.
+> 
+> Replace every remaining `[SCREENSHOT: …]` placeholder below with a real screenshot you captured yourself:
+> - **E1:** Open the repo in VS Code → show project files + README.
+> - **E2:** TortoiseGit → right-click repo → **Show log** on `main` (must show ≥3 commits).
+> - **E4:** On GitHub → Code → branches → show `lab3/team-a` and `lab3/team-b` with their two different status lines.
+> - **E5:** On GitHub → Pull requests → open `lab3/team-b` → `main` (show conflict warning), resolve it, merge → show final `main` with `Project status: Reviewed by both teams.`
+> - **E6:** On GitHub → Actions → show a completed **successful** run for the `main` push, including the test log.
+> - **E7:** On GitHub → Actions → open PR `ci/broken-test` → `main` → show the **failed** run; fix `app.test.js`, push → show the **passing** run.
 
 ---
 
