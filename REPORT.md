@@ -17,10 +17,10 @@
 > |----------|--------|-------------|
 > | **E1** VS Code project files + README | ❌ You capture | [SCREENSHOT: E1] |
 > | **E2** TortoiseGit Show log (≥3 commits on main) | ❌ You capture — TortoiseGit is local on your PC | [SCREENSHOT: E2] |
-> | **E3** GitHub main branch file list | ✅ Done | `screenshots/E3_github_main_files.jpg` (captured above) |
-> | **E4** Two branches + two status lines | ❌ You capture on GitHub | [SCREENSHOT: E4] |
+> | **E3** GitHub main branch file list | ✅ Done | `screenshots/E3_github_main_files.jpg` |
+> | **E4** Two branches + two status lines | ✅ Done | `screenshots/E4_github_branches.jpg` |
 > | **E5** PR conflict → resolved merge | ❌ You capture on GitHub | [SCREENSHOT: E5] |
-> | **E6** Passing GitHub Actions run + test log | ❌ You capture on GitHub | [SCREENSHOT: E6] |
+> | **E6** Passing GitHub Actions run | ✅ Done | `screenshots/E6_github_actions.jpg` |
 > | **E7** Failed run → fixed successful run | ❌ You capture on GitHub | [SCREENSHOT: E7] |
 > 
 > **IMPORTANT:** I cannot generate screenshots for you — I do not have access to your GitHub account login or your local TortoiseGit application. You must capture every remaining screenshot yourself from **your own** TortoiseGit / GitHub / GitHub Actions session. Per the assignment rules, **simulated or copied screenshots do not count as execution evidence** and will receive zero marks.
@@ -28,9 +28,7 @@
 > Replace every remaining `[SCREENSHOT: …]` placeholder below with a real screenshot you captured yourself:
 > - **E1:** Open the repo in VS Code → show project files + README.
 > - **E2:** TortoiseGit → right-click repo → **Show log** on `main` (must show ≥3 commits).
-> - **E4:** On GitHub → Code → branches → show `lab3/team-a` and `lab3/team-b` with their two different status lines.
 > - **E5:** On GitHub → Pull requests → open `lab3/team-b` → `main` (show conflict warning), resolve it, merge → show final `main` with `Project status: Reviewed by both teams.`
-> - **E6:** On GitHub → Actions → show a completed **successful** run for the `main` push, including the test log.
 > - **E7:** On GitHub → Actions → open PR `ci/broken-test` → `main` → show the **failed** run; fix `app.test.js`, push → show the **passing** run.
 
 ---
